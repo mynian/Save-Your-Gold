@@ -3,4 +3,4 @@
 ## Notes: Save some gold without needing a bank alt!
 ## Version: 0.1
 
-saveyourgold.lua
+SaveYourGold.lua

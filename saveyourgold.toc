@@ -1,0 +1,6 @@
+## Interface: 90005
+## Title: Save Your Gold
+## Notes: Save some gold without needing a bank alt!
+## Version: 0.1
+
+saveyourgold.lua

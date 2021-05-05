@@ -29,3 +29,18 @@ local function mathround(number, precision)
   return number;
 end
 
+--Defaulting saved gold amount
+sygsavedamount = 0
+
+local function addgold(amount)
+    amount = amount or 0
+    sygsavedamount = tonumber(sygsavedamount) + tonumber(amount)
+end
+
+local function subtractgold(amount)
+    amount = amount or 0
+    sygsavedamount = tonumber(sygsavedamount) - tonumber(amount)
+    if sygsavedamount < 0 then
+        sygsavedamount = 0
+    end
+end

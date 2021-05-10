@@ -29,6 +29,9 @@ local function mathround(number, precision)
   return number;
 end
 
+--Create Basic framework for addon
+local sygframe, sygevents = CreateFrame("Frame", "SaveYourGold"), {};
+
 --Defaulting saved gold amount
 sygsavedamount = 0
 
